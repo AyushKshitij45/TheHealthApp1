@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_emergency_response"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.admin.thehealthapp.EmargencyResponseActivity">
+
+    <TextView
+        android:id="@+id/call_ambulance"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Ambulance"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:background="#F44336"
+        android:textColor="#FFFFFF"
+        android:layout_margin="1dp"
+        />
+
+    <TextView
+        android:id="@+id/call_hospital"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:text="Hospital"
+        android:background="#F44336"
+        android:textColor="#FFFFFF"
+        android:layout_margin="1dp"
+        />
+    <TextView
+        android:id="@+id/call_police"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Police"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:background="#F44336"
+        android:textColor="#FFFFFF"
+        android:layout_margin="1dp"
+        />
+</LinearLayout>

@@ -4,10 +4,56 @@
     android:id="@+id/activity_emergengyact"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
     tools:context="com.example.admin.thehealthapp.EmergencyActActivity">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:paddingTop="90dp"
+    android:paddingBottom="100dp"
+    android:paddingLeft="70dp"
+    android:paddingRight="70dp"
+    android:id="@+id/stranger">
+    <TextView
+
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:text="Stranger"
+    android:gravity="center"
+    android:background="#F44336"
+    android:textColor="#ffffff"
+    android:textSize="28sp"/>
+
+</FrameLayout>
+    <FrameLayout
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#37474F">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/self"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:paddingTop="90dp"
+        android:paddingBottom="100dp"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp">
+        <TextView
+
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:text="Self"
+            android:gravity="center"
+            android:background="#F44336"
+            android:textColor="#ffffff"
+            android:textSize="28sp"/>
+
+    </FrameLayout>
 
 </LinearLayout>
