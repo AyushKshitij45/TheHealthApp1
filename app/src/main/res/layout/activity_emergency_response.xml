@@ -14,10 +14,10 @@
         android:layout_weight="1"
         android:text="Ambulance"
         android:gravity="center"
-        android:textSize="24sp"
-        android:background="#F44336"
+        android:textSize="38sp"
+        android:background="#FFA000"
         android:textColor="#FFFFFF"
-        android:layout_margin="1dp"
+        android:layout_margin="0dp"
         />
 
     <TextView
@@ -26,11 +26,11 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:gravity="center"
-        android:textSize="24sp"
+        android:textSize="38sp"
         android:text="Hospital"
-        android:background="#F44336"
+        android:background="#FF6F00"
         android:textColor="#FFFFFF"
-        android:layout_margin="1dp"
+        android:layout_margin="0dp"
         />
     <TextView
         android:id="@+id/call_police"
@@ -39,9 +39,9 @@
         android:layout_weight="1"
         android:text="Police"
         android:gravity="center"
-        android:textSize="24sp"
+        android:textSize="38sp"
         android:background="#F44336"
         android:textColor="#FFFFFF"
-        android:layout_margin="1dp"
+        android:layout_margin="0dp"
         />
 </LinearLayout>

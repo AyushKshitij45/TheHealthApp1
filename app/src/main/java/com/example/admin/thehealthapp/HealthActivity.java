@@ -11,12 +11,12 @@ public class HealthActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.list_item);
+        setContentView(R.layout.activity_health);
 
         ArrayList<List> disease = new ArrayList<List>();
 
-        disease.add(new List("Thyoroid","dsc"));
-        disease.add(new List("BP","sad"));
+        disease.add(new List("Thyoroid","true"));
+        disease.add(new List("BP","true"));
 
 ListAdapter listAdapter= new ListAdapter (this,disease);
 

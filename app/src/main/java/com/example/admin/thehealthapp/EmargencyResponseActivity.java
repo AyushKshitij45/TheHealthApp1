@@ -30,7 +30,7 @@ public class EmargencyResponseActivity extends AppCompatActivity {
         hospital.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String phone = "101";
+                String phone = "108";
                 Intent intent = new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", phone, null));
                 startActivity(intent);
             }
