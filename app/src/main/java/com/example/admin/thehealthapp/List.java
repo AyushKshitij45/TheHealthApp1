@@ -8,10 +8,13 @@ public class List {
 
     private String mDiseaseName;
     private String mPersonStatus;
+    private int mImageResourceId;
 
-    public List(String diseaseName,String personStatus){
+    public List(String diseaseName,String personStatus,int imageResourceId){
         mDiseaseName=diseaseName;
         mPersonStatus=personStatus;
+        mImageResourceId = imageResourceId;
+
     }
 
     public String getDiseaseName(){
@@ -20,6 +23,10 @@ public class List {
 
     public String getPersonStatus(){
         return mPersonStatus;
+    }
+
+    public int getImageResourceId() {
+        return mImageResourceId;
     }
 
 }

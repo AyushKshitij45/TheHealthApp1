@@ -15,8 +15,12 @@ public class HealthActivity extends AppCompatActivity {
 
         ArrayList<List> disease = new ArrayList<List>();
 
-        disease.add(new List("Thyoroid","true"));
-        disease.add(new List("BP","true"));
+        disease.add(new List("BP","120/80",R.drawable.blood_pressure));
+        disease.add(new List("Sugar Level(before meal)","90",R.drawable.sugar1));
+        disease.add(new List("Sugar Level(after meal)","130",R.drawable.sugar1));
+        disease.add(new List("Pulse Rate","70",R.drawable.heart_rate));
+        disease.add(new List("Heart Rate","70",R.drawable.heart_rate));
+
 
 ListAdapter listAdapter= new ListAdapter (this,disease);
 
